@@ -1,0 +1,46 @@
+.nav-bar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header{
+    margin: 20px auto;
+    background-color: rosybrown;
+    width: 700px;
+    height: auto;
+}
+
+.btn-bar{
+    line-height: 70px;
+}
+
+.btn-bar button{
+    width: 100px;
+    height: 30px;
+    background-color: #0bda64;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.task-bar{
+    color: white;
+    text-transform: uppercase;
+}
+
+.task-title input, .task-description textarea{
+    width: 600px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin: 0 0 20px 40px;
+}
+
+.btn-second{
+    margin-left: 100px;
+}
